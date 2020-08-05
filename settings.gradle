@@ -1,0 +1,75 @@
+/*
+ * Copyright 2020 Haulmont.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+rootProject.name = 'jmix-all'
+
+includeBuild 'jmix-gradle-plugin'
+
+includeBuild 'jmix-build'
+
+include ':bom'
+project(':bom').projectDir = new File(settingsDir, 'jmix-bom')
+
+includeProject('audit', 'jmix-audit/audit')
+includeProject('audit-starter', 'jmix-audit/audit-starter')
+includeProject('audit-ui', 'jmix-audit/audit-ui')
+includeProject('audit-ui-starter', 'jmix-audit/audit-ui-starter')
+
+includeProject('core', 'jmix-core/core')
+includeProject('core-starter', 'jmix-core/core-starter')
+
+includeProject('cuba', 'jmix-cuba/cuba')
+includeProject('cuba-starter', 'jmix-cuba/cuba-starter')
+
+includeProject('data', 'jmix-data/data')
+includeProject('data-starter', 'jmix-data/data-starter')
+
+includeProject('datatools-ui', 'jmix-datatools/datatools-ui')
+includeProject('datatools-ui-starter', 'jmix-datatools/datatools-ui-starter')
+
+includeProject('dynattr', 'jmix-dynattr/dynattr')
+includeProject('dynattr-starter', 'jmix-dynattr/dynattr-starter')
+includeProject('dynattr-ui', 'jmix-dynattr/dynattr-ui')
+includeProject('dynattr-ui-starter', 'jmix-dynattr/dynattr-ui-starter')
+
+includeProject('fsfilestorage', 'jmix-fsfilestorage/fsfilestorage')
+includeProject('fsfilestorage-starter', 'jmix-fsfilestorage/fsfilestorage-starter')
+
+includeProject('rest', 'jmix-rest/rest')
+includeProject('rest-starter', 'jmix-rest/rest-starter')
+
+includeProject('security', 'jmix-security/security')
+includeProject('security-starter', 'jmix-security/security-starter')
+includeProject('security-data', 'jmix-security/security-data')
+includeProject('security-data-starter', 'jmix-security/security-data-starter')
+includeProject('security-ui', 'jmix-security/security-ui')
+includeProject('security-ui-starter', 'jmix-security/security-ui-starter')
+
+includeProject('ui', 'jmix-ui/ui')
+includeProject('ui-starter', 'jmix-ui/ui-starter')
+includeProject('ui-data', 'jmix-ui/ui-data')
+includeProject('ui-data-starter', 'jmix-ui/ui-data-starter')
+includeProject('ui-test-assist', 'jmix-ui/ui-test-assist')
+includeProject('ui-themes', 'jmix-ui/ui-themes')
+includeProject('ui-themes-compiled', 'jmix-ui/ui-themes-compiled')
+includeProject('ui-widgets', 'jmix-ui/ui-widgets')
+includeProject('ui-widgets-compiled', 'jmix-ui/ui-widgets-compiled')
+
+void includeProject(String name, String path) {
+    include ":$name"
+    project(":$name").projectDir = new File(settingsDir, "$path")
+    project(":$name").buildFileName = "${name}.gradle"
+}

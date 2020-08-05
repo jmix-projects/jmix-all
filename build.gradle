@@ -1,0 +1,63 @@
+buildscript {
+    repositories {
+        if (rootProject.hasProperty('jmixRepoUrl')) {
+            maven {
+                url rootProject['jmixRepoUrl']
+
+                if (rootProject.hasProperty('jmixRepoUser') && rootProject.hasProperty('jmixRepoPassword')) {
+                    credentials {
+                        username rootProject['jmixRepoUser']
+                        password rootProject['jmixRepoPassword']
+                    }
+                }
+            }
+        } else {
+            mavenLocal()
+            maven {
+                url "https://nexus.jmix.io/repository/public/"
+            }
+            maven {
+                url "https://plugins.gradle.org/m2/"
+            }
+        }
+    }
+    dependencies {
+        classpath("io.jmix.build:jmix-build:$version")
+        classpath("io.jmix.gradle:jmix-gradle-plugin:${version}")
+    }
+}
+
+def dependencySubstitutionMap = [
+    'io.jmix.audit:jmix-audit': 'audit',
+    'io.jmix.audit:jmix-audit-ui': 'audit-ui',
+    'io.jmix.core:jmix-core': 'core',
+    'io.jmix.data:jmix-data': 'data',
+    'io.jmix.datatools:jmix-datatools-ui': 'datatools-ui',
+    'io.jmix.dynattr:jmix-dynattr': 'dynattr',
+    'io.jmix.dynattr:jmix-dynattr-ui': 'dynattr-ui',
+    'io.jmix.fsfilestorage:jmix-fsfilestorage': 'fsfilestorage',
+    'io.jmix.rest:jmix-rest': 'rest',
+    'io.jmix.security:jmix-security': 'security',
+    'io.jmix.security:jmix-security-data': 'security-data',
+    'io.jmix.security:jmix-security-ui': 'security-ui',
+    'io.jmix.ui:jmix-ui': 'ui',
+    'io.jmix.ui:jmix-ui-data': 'ui-data',
+    'io.jmix.ui:jmix-ui-test-assist': 'ui-test-assist',
+    'io.jmix.ui:jmix-ui-themes': 'ui-themes',
+    'io.jmix.ui:jmix-ui-themes-compiled': 'ui-themes-compiled',
+    'io.jmix.ui:jmix-ui-widgets': 'ui-widgets',
+    'io.jmix.ui:jmix-ui-widgets-compiled': 'ui-widgets-compiled',
+]
+
+configure(subprojects.findAll { it.name != 'bom' }) {
+    apply(plugin: 'io.jmix.build')
+
+    configurations.all {
+        resolutionStrategy.dependencySubstitution {
+            substitute module('io.jmix.bom:jmix-bom') with project(':bom')
+            dependencySubstitutionMap.each { key, value ->
+                substitute module(key) with project(":$value")
+            }
+        }
+    }
+}
