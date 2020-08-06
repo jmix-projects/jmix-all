@@ -20,6 +20,8 @@ includeBuild 'jmix-gradle-plugin'
 
 includeBuild 'jmix-build'
 
+includeBuild 'jmix-templates'
+
 include ':bom'
 project(':bom').projectDir = new File(settingsDir, 'jmix-bom')
 
