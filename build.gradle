@@ -11,14 +11,13 @@ buildscript {
                     }
                 }
             }
+            gradlePluginPortal()
         } else {
             mavenLocal()
             maven {
-                url "https://nexus.jmix.io/repository/public/"
+                url "https://nexus.jmix.io/repository/public"
             }
-            maven {
-                url "https://plugins.gradle.org/m2/"
-            }
+            gradlePluginPortal()
         }
     }
     dependencies {
@@ -40,6 +39,7 @@ def dependencySubstitutionMap = [
     'io.jmix.security:jmix-security': 'security',
     'io.jmix.security:jmix-security-data': 'security-data',
     'io.jmix.security:jmix-security-ui': 'security-ui',
+    'io.jmix.sessions:jmix-sessions': 'sessions',
     'io.jmix.ui:jmix-ui': 'ui',
     'io.jmix.ui:jmix-ui-data': 'ui-data',
     'io.jmix.ui:jmix-ui-test-assist': 'ui-test-assist',
