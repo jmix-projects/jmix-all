@@ -60,7 +60,7 @@ configure(subprojects.findAll { it.name != 'bom' }) {
 
     configurations.all {
         resolutionStrategy.dependencySubstitution {
-            substitute module('io.jmix.bom:jmix-bom') with project(':bom')
+            substitute platform(module("io.jmix.bom:jmix-bom")) with platform(project(':bom'))
             dependencySubstitutionMap.each { key, value ->
                 substitute module(key) with project(":$value")
             }
