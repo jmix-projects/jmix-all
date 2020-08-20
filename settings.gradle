@@ -22,6 +22,8 @@ includeBuild 'jmix-build'
 
 includeBuild 'jmix-templates'
 
+includeBuild 'jmix-translations'
+
 include ':bom'
 project(':bom').projectDir = new File(settingsDir, 'jmix-bom')
 
