@@ -22,6 +22,8 @@ includeBuild 'jmix-build'
 
 includeBuild 'jmix-templates'
 
+includeBuild 'jmix-translations'
+
 include ':bom'
 project(':bom').projectDir = new File(settingsDir, 'jmix-bom')
 
@@ -74,6 +76,7 @@ includeProject('ui-themes', 'jmix-ui/ui-themes')
 includeProject('ui-themes-compiled', 'jmix-ui/ui-themes-compiled')
 includeProject('ui-widgets', 'jmix-ui/ui-widgets')
 includeProject('ui-widgets-compiled', 'jmix-ui/ui-widgets-compiled')
+includeProject('sample-ui', 'jmix-ui/sample-ui')
 
 void includeProject(String name, String path) {
     include ":$name"

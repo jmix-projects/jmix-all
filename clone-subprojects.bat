@@ -12,4 +12,5 @@ git clone https://github.com/Haulmont/jmix-rest.git
 git clone https://github.com/Haulmont/jmix-security.git
 git clone https://github.com/Haulmont/jmix-sessions.git
 git clone https://github.com/Haulmont/jmix-templates.git
+git clone https://github.com/Haulmont/jmix-translations.git
 git clone https://github.com/Haulmont/jmix-ui.git
