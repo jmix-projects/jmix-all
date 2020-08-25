@@ -76,8 +76,13 @@ includeProject('ui-widgets', 'jmix-ui/ui-widgets')
 includeProject('ui-widgets-compiled', 'jmix-ui/ui-widgets-compiled')
 includeProject('sample-ui', 'jmix-ui/sample-ui')
 
-void includeProject(String name, String path) {
+includeProject('sampler', 'jmix-sampler', false)
+
+void includeProject(String name, String path, boolean changeBuildFileName = true) {
     include ":$name"
     project(":$name").projectDir = new File(settingsDir, "$path")
-    project(":$name").buildFileName = "${name}.gradle"
+
+    if (changeBuildFileName) {
+        project(":$name").buildFileName = "${name}.gradle"
+    }
 }
