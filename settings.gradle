@@ -54,6 +54,7 @@ includeProject('fsfilestorage-starter', 'jmix-fsfilestorage/fsfilestorage-starte
 
 includeProject('rest', 'jmix-rest/rest')
 includeProject('rest-starter', 'jmix-rest/rest-starter')
+includeProject('rest-sample', 'jmix-rest/rest-sample')
 
 includeProject('security', 'jmix-security/security')
 includeProject('security-starter', 'jmix-security/security-starter')
