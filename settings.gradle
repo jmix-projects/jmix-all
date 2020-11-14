@@ -49,6 +49,11 @@ includeProject('dynattr-starter', 'jmix-dynattr/dynattr-starter')
 includeProject('dynattr-ui', 'jmix-dynattr/dynattr-ui')
 includeProject('dynattr-ui-starter', 'jmix-dynattr/dynattr-ui-starter')
 
+includeProject('email', 'jmix-email/email')
+includeProject('email-starter', 'jmix-email/email-starter')
+includeProject('email-ui', 'jmix-email/email-ui')
+includeProject('email-ui-starter', 'jmix-email/email-ui-starter')
+
 includeProject('fsfilestorage', 'jmix-fsfilestorage/fsfilestorage')
 includeProject('fsfilestorage-starter', 'jmix-fsfilestorage/fsfilestorage-starter')
 
