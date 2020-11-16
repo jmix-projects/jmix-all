@@ -33,6 +33,8 @@ def dependencySubstitutionMap = [
     'io.jmix.core:jmix-core-starter': 'core-starter',
     'io.jmix.data:jmix-data': 'data',
     'io.jmix.data:jmix-data-starter': 'data-starter',
+    'io.jmix.datatools:jmix-datatools': 'datatools',
+    'io.jmix.datatools:jmix-datatools-starter': 'datatools-starter',
     'io.jmix.datatools:jmix-datatools-ui': 'datatools-ui',
     'io.jmix.datatools:jmix-datatools-ui-starter': 'datatools-ui-starter',
     'io.jmix.dynattr:jmix-dynattr': 'dynattr',
