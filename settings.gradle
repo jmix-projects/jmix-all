@@ -41,6 +41,8 @@ includeProject('cuba-starter', 'jmix-cuba/cuba-starter')
 includeProject('data', 'jmix-data/data')
 includeProject('data-starter', 'jmix-data/data-starter')
 
+includeProject('datatools', 'jmix-datatools/datatools')
+includeProject('datatools-starter', 'jmix-datatools/datatools-starter')
 includeProject('datatools-ui', 'jmix-datatools/datatools-ui')
 includeProject('datatools-ui-starter', 'jmix-datatools/datatools-ui-starter')
 
