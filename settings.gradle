@@ -88,6 +88,10 @@ includeProject('sample-ui', 'jmix-ui/sample-ui')
 
 includeProject('sampler', 'jmix-sampler', false)
 
+if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
+    // Maps, BPM, WebDAV
+}
+
 void includeProject(String name, String path, boolean changeBuildFileName = true) {
     include ":$name"
     project(":$name").projectDir = new File(settingsDir, "$path")

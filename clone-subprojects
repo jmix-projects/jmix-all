@@ -18,3 +18,7 @@ git clone https://github.com/Haulmont/jmix-sessions.git
 git clone https://github.com/Haulmont/jmix-templates.git
 git clone https://github.com/Haulmont/jmix-translations.git
 git clone https://github.com/Haulmont/jmix-ui.git
+
+if [[ -n "$JMIX_USE_PRIVATE_REPOSITORIES" ]]; then
+    git clone https://github.com/Haulmont/jmix-maps.git
+fi
