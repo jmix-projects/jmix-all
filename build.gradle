@@ -39,7 +39,7 @@ def dependencySubstitutionMap = [
     'io.jmix.datatools:jmix-datatools-ui-starter': 'datatools-ui-starter',
     'io.jmix.dynattr:jmix-dynattr': 'dynattr',
     'io.jmix.dynattr:jmix-dynattr-ui': 'dynattr-ui',
-    'io.jmix.fsfilestorage:jmix-fsfilestorage': 'fsfilestorage',
+    'io.jmix.localfs:jmix-localfs': 'localfs',
     'io.jmix.rest:jmix-rest': 'rest',
     'io.jmix.security:jmix-security': 'security',
     'io.jmix.security:jmix-security-data': 'security-data',

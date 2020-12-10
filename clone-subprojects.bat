@@ -7,7 +7,7 @@ git clone https://github.com/Haulmont/jmix-data.git
 git clone https://github.com/Haulmont/jmix-datatools.git
 git clone https://github.com/Haulmont/jmix-dynattr.git
 git clone https://github.com/Haulmont/jmix-email.git
-git clone https://github.com/Haulmont/jmix-fsfilestorage.git
+git clone https://github.com/Haulmont/jmix-fsfilestorage.git localfs
 git clone https://github.com/Haulmont/jmix-gradle-plugin.git
 git clone https://github.com/Haulmont/jmix-rest.git
 git clone https://github.com/Haulmont/jmix-sampler.git
