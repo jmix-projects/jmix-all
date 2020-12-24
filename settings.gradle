@@ -56,6 +56,9 @@ includeProject('email-starter', 'jmix-email/email-starter')
 includeProject('email-ui', 'jmix-email/email-ui')
 includeProject('email-ui-starter', 'jmix-email/email-ui-starter')
 
+includeProject('graphql', 'jmix-graphql/graphql')
+includeProject('graphql-starter', 'jmix-graphql/graphql-starter')
+
 includeProject('localfs', 'jmix-localfs/localfs')
 includeProject('localfs-starter', 'jmix-localfs/localfs-starter')
 
