@@ -56,6 +56,9 @@ includeProject('email-starter', 'jmix-email/email-starter')
 includeProject('email-ui', 'jmix-email/email-ui')
 includeProject('email-ui-starter', 'jmix-email/email-ui-starter')
 
+includeProject('grapesjs', 'jmix-grapesjs/grapesjs')
+includeProject('grapesjs-starter', 'jmix-grapesjs/grapesjs-starter')
+
 includeProject('graphql', 'jmix-graphql/graphql')
 includeProject('graphql-starter', 'jmix-graphql/graphql-starter')
 
