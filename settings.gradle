@@ -62,6 +62,11 @@ includeProject('grapesjs-starter', 'jmix-grapesjs/grapesjs-starter')
 includeProject('graphql', 'jmix-graphql/graphql')
 includeProject('graphql-starter', 'jmix-graphql/graphql-starter')
 
+includeProject('imap', 'jmix-imap/imap')
+includeProject('imap-starter', 'jmix-imap/imap-starter')
+includeProject('imap-ui', 'jmix-imap/imap-ui')
+includeProject('imap-ui-starter', 'jmix-imap/imap-ui-starter')
+
 includeProject('localfs', 'jmix-localfs/localfs')
 includeProject('localfs-starter', 'jmix-localfs/localfs-starter')
 
