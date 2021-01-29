@@ -74,6 +74,13 @@ includeProject('rest', 'jmix-rest/rest')
 includeProject('rest-starter', 'jmix-rest/rest-starter')
 includeProject('sample-rest', 'jmix-rest/sample-rest')
 
+includeProject('reports', 'jmix-reports/reports')
+includeProject('reports-rest', 'jmix-reports/reports-rest')
+includeProject('reports-ui', 'jmix-reports/reports-ui')
+includeProject('reports-starter', 'jmix-reports/reports-starter')
+includeProject('reports-ui-starter', 'jmix-reports/reports-ui-starter')
+includeProject('reports-rest-starter', 'jmix-reports/reports-rest-starter')
+
 includeProject('security', 'jmix-security/security')
 includeProject('security-starter', 'jmix-security/security-starter')
 includeProject('security-data', 'jmix-security/security-data')
