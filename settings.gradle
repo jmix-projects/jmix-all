@@ -108,6 +108,11 @@ includeProject('sampler', 'jmix-sampler', false)
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     // Maps, BPM, WebDAV
+    includeProject('maps', 'jmix-maps/maps')
+    includeProject('maps-starter', 'jmix-maps/maps-starter')
+    includeProject('maps-ui', 'jmix-maps/maps-ui')
+    includeProject('maps-ui-starter', 'jmix-maps/maps-ui-starter')
+    includeProject('maps-ui-widgets', 'jmix-maps/maps-ui-widgets')
 }
 
 void includeProject(String name, String path, boolean changeBuildFileName = true) {
