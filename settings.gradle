@@ -45,7 +45,7 @@ includeProject('eclipselink', 'jmix-data/eclipselink')
 includeProject('eclipselink-starter', 'jmix-data/eclipselink-starter')
 
 includeProject('data-hibernate', 'jmix-data/data-hibernate')
-includeProject('data-hibernate-starter', 'jmix-data/data-hibernate-starter')
+includeProject('hibernate-starter', 'jmix-data/hibernate-starter')
 
 includeProject('datatools', 'jmix-datatools/datatools')
 includeProject('datatools-starter', 'jmix-datatools/datatools-starter')
