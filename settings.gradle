@@ -39,6 +39,7 @@ includeProject('cuba', 'jmix-cuba/cuba')
 includeProject('cuba-starter', 'jmix-cuba/cuba-starter')
 
 includeProject('data', 'jmix-data/data')
+includeProject('data-autoconfigure', 'jmix-data/data-autoconfigure')
 
 includeProject('eclipselink', 'jmix-data/eclipselink')
 includeProject('eclipselink-starter', 'jmix-data/eclipselink-starter')
