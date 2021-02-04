@@ -23,6 +23,7 @@ buildscript {
     dependencies {
         classpath("io.jmix.build:jmix-build:${rootProject.findProperty('buildPluginVersion') ?: version}")
         classpath("io.jmix.gradle:jmix-gradle-plugin:${rootProject.findProperty('jmixPluginVersion') ?: version}")
+        classpath "org.hibernate:hibernate-gradle-plugin:5.4.23.Final"
     }
 }
 
@@ -32,7 +33,10 @@ def dependencySubstitutionMap = [
     'io.jmix.core:jmix-core': 'core',
     'io.jmix.core:jmix-core-starter': 'core-starter',
     'io.jmix.data:jmix-data': 'data',
-    'io.jmix.data:jmix-data-starter': 'data-starter',
+    'io.jmix.data:jmix-data-eclipselink': 'data-eclipselink',
+    'io.jmix.data:jmix-data-eclipselink-starter': 'data-eclipselink-starter',
+    'io.jmix.data:jmix-data-hibernate': 'data-hibernate',
+    'io.jmix.data:jmix-data-hibernate-starter': 'data-hibernate-starter',
     'io.jmix.datatools:jmix-datatools': 'datatools',
     'io.jmix.datatools:jmix-datatools-starter': 'datatools-starter',
     'io.jmix.datatools:jmix-datatools-ui': 'datatools-ui',
