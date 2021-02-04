@@ -40,8 +40,8 @@ includeProject('cuba-starter', 'jmix-cuba/cuba-starter')
 
 includeProject('data', 'jmix-data/data')
 
-includeProject('data-eclipselink', 'jmix-data/data-eclipselink')
-includeProject('data-eclipselink-starter', 'jmix-data/data-eclipselink-starter')
+includeProject('eclipselink', 'jmix-data/eclipselink')
+includeProject('eclipselink-starter', 'jmix-data/eclipselink-starter')
 
 includeProject('data-hibernate', 'jmix-data/data-hibernate')
 includeProject('data-hibernate-starter', 'jmix-data/data-hibernate-starter')
