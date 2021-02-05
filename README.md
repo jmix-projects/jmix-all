@@ -2,7 +2,7 @@
 
 A project that aggregates all Jmix modules. It is designed to provide transparent navigation and refactoring in an IDE.  
 
-1. If you have access to Jmix private repositories on GitHub, set `JMIX_USE_PRIVATE_REPOSITORIES` environment variable to any non-empty value. Restart OS to make sure it comes into effect.
+1. If you have access to Jmix private repositories on GitHub, set `JMIX_USE_PRIVATE_REPOSITORIES` environment variable to any non-empty value. Restart OS to make sure it works.
 
     If you don't have access to the private repositories, the project will work with the public ones only. 
 
