@@ -35,7 +35,7 @@ def dependencySubstitutionMap = [
     'io.jmix.data:jmix-data': 'data',
     'io.jmix.data:jmix-eclipselink': 'eclipselink',
     'io.jmix.data:jmix-eclipselink-starter': 'eclipselink-starter',
-    'io.jmix.data:jmix-data-hibernate': 'data-hibernate',
+    'io.jmix.data:jmix-hibernate': 'hibernate',
     'io.jmix.data:jmix-hibernate-starter': 'hibernate-starter',
     'io.jmix.datatools:jmix-datatools': 'datatools',
     'io.jmix.datatools:jmix-datatools-starter': 'datatools-starter',
