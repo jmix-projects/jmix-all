@@ -9,6 +9,7 @@ git clone https://github.com/Haulmont/jmix-data.git
 git clone https://github.com/Haulmont/jmix-datatools.git
 git clone https://github.com/Haulmont/jmix-dynattr.git
 git clone https://github.com/Haulmont/jmix-email.git
+git clone https://github.com/Haulmont/jmix-emailtemplates.git
 git clone https://github.com/Haulmont/jmix-graphql.git
 git clone https://github.com/Haulmont/jmix-localfs.git
 git clone https://github.com/Haulmont/jmix-awsfs.git
