@@ -126,6 +126,12 @@ includeProject('sampler', 'jmix-sampler', false)
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     // Maps, BPM, WebDAV
+    includeProject('bpm', 'jmix-bpm/bpm')
+    includeProject('bpm-modeler', 'jmix-bpm/bpm-modeler')
+    includeProject('bpm-starter', 'jmix-bpm/bpm-starter')
+    includeProject('bpm-ui', 'jmix-bpm/bpm-ui')
+    includeProject('bpm-ui-starter', 'jmix-bpm/bpm-ui-starter')
+
     includeProject('maps', 'jmix-maps/maps')
     includeProject('maps-starter', 'jmix-maps/maps-starter')
     includeProject('maps-ui', 'jmix-maps/maps-ui')

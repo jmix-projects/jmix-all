@@ -24,5 +24,6 @@ git clone https://github.com/Haulmont/jmix-translations.git
 git clone https://github.com/Haulmont/jmix-ui.git
 
 IF DEFINED JMIX_USE_PRIVATE_REPOSITORIES (
+  git clone https://github.com/Haulmont/jmix-bpm.git
   git clone https://github.com/Haulmont/jmix-maps.git
 )
