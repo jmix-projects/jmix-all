@@ -91,9 +91,11 @@ def dependencySubstitutionMap = [
         'io.jmix.security:jmix-security'                       : 'security',
         'io.jmix.security:jmix-security-data'                  : 'security-data',
         'io.jmix.security:jmix-security-ui'                    : 'security-ui',
+        'io.jmix.security:jmix-security-oauth2'                : 'security-oauth2',
         'io.jmix.security:jmix-security-starter'               : 'security-starter',
         'io.jmix.security:jmix-security-ui-starter'            : 'security-ui-starter',
         'io.jmix.security:jmix-security-data-starter'          : 'security-data-starter',
+        'io.jmix.security:jmix-security-oauth2-starter'        : 'security-oauth2-starter',
 
         'io.jmix.sessions:jmix-sessions'                       : 'sessions',
         'io.jmix.sessions:jmix-sessions-starter'               : 'sessions-starter',
