@@ -47,6 +47,11 @@ includeProject('eclipselink-starter', 'jmix-data/eclipselink-starter')
 includeProject('hibernate', 'jmix-data/hibernate')
 includeProject('hibernate-starter', 'jmix-data/hibernate-starter')
 
+includeProject('dashboards', 'jmix-dashboards/dashboards')
+includeProject('dashboards-starter', 'jmix-dashboards/dashboards-starter')
+includeProject('dashboards-ui', 'jmix-dashboards/dashboards-ui')
+includeProject('dashboards-ui-starter', 'jmix-dashboards/dashboards-ui-starter')
+
 includeProject('datatools', 'jmix-datatools/datatools')
 includeProject('datatools-starter', 'jmix-datatools/datatools-starter')
 includeProject('datatools-ui', 'jmix-datatools/datatools-ui')
