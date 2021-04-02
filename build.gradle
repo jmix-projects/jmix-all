@@ -35,6 +35,9 @@ def dependencySubstitutionMap = [
         'io.jmix.awsfs:jmix-awsfs'                             : 'awsfs',
         'io.jmix.awsfs:jmix-awsfs-starter'                     : 'awsfs-starter',
 
+        'io.jmix.awssecurity:jmix-awssecurity'                 : 'awssecurity',
+        'io.jmix.awssecurity:jmix-awssecurity-starter'         : 'awssecurity-starter',
+
         'io.jmix.core:jmix-core'                               : 'core',
         'io.jmix.core:jmix-core-starter'                       : 'core-starter',
 
