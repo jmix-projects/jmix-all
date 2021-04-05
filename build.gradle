@@ -43,6 +43,8 @@ def dependencySubstitutionMap = [
 
         'io.jmix.dashboards:jmix-dashboards'                   : 'dashboards',
         'io.jmix.dashboards:jmix-dashboards-starter'           : 'dashboards-starter',
+        'io.jmix.dashboards:jmix-dashboards-chart'             : 'dashboards-chart',
+        'io.jmix.dashboards:jmix-dashboards-chart-starter'     : 'dashboards-chart-starter',
         'io.jmix.dashboards:jmix-dashboards-ui'                : 'dashboards-ui',
         'io.jmix.dashboards:jmix-dashboards-ui-starter'        : 'dashboards-ui-starter',
 

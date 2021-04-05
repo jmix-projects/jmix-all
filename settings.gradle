@@ -55,6 +55,8 @@ includeProject('hibernate-starter', 'jmix-data/hibernate-starter')
 
 includeProject('dashboards', 'jmix-dashboards/dashboards')
 includeProject('dashboards-starter', 'jmix-dashboards/dashboards-starter')
+includeProject('dashboards-chart', 'jmix-dashboards/dashboards-chart')
+includeProject('dashboards-chart-starter', 'jmix-dashboards/dashboards-chart-starter')
 includeProject('dashboards-ui', 'jmix-dashboards/dashboards-ui')
 includeProject('dashboards-ui-starter', 'jmix-dashboards/dashboards-ui-starter')
 
