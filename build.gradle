@@ -121,8 +121,10 @@ def dependencySubstitutionMap = [
         'io.jmix.ui:jmix-ui-widgets-compiled'                  : 'ui-widgets-compiled',
         'io.jmix.ui:jmix-charts'                               : 'charts',
         'io.jmix.ui:jmix-charts-starter'                       : 'charts-starter',
+        'io.jmix.ui:jmix-charts-widgets'                       : 'charts-widgets',
         'io.jmix.ui:jmix-pivot-table'                          : 'pivot-table',
         'io.jmix.ui:jmix-pivot-table-starter'                  : 'pivot-table-starter',
+        'io.jmix.ui:jmix-pivot-table-widgets'                  : 'pivot-table-widgets',
 ]
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {

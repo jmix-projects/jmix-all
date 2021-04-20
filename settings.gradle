@@ -127,8 +127,10 @@ includeProject('ui-widgets', 'jmix-ui/ui-widgets')
 includeProject('ui-widgets-compiled', 'jmix-ui/ui-widgets-compiled')
 includeProject('charts', 'jmix-ui/charts')
 includeProject('charts-starter', 'jmix-ui/charts-starter')
+includeProject('charts-widgets', 'jmix-ui/charts-widgets')
 includeProject('pivot-table', 'jmix-ui/pivot-table')
 includeProject('pivot-table-starter', 'jmix-ui/pivot-table-starter')
+includeProject('pivot-table-widgets', 'jmix-ui/pivot-table-widgets')
 
 includeProject('sampler', 'jmix-sampler', false)
 
