@@ -96,6 +96,12 @@ def dependencySubstitutionMap = [
         'io.jmix.rest:jmix-rest'                               : 'rest',
         'io.jmix.rest:jmix-rest-starter'                       : 'rest-starter',
 
+        'io.jmix.search:jmix-search'                           : 'search',
+        'io.jmix.search:jmix-search-starter'                   : 'search-starter',
+        'io.jmix.search:jmix-search-aws-starter'               : 'search-aws-starter',
+        'io.jmix.search:jmix-search-ui'                        : 'search-ui',
+        'io.jmix.search:jmix-search-ui-starter'                : 'search-ui-starter',
+
         'io.jmix.security:jmix-security'                       : 'security',
         'io.jmix.security:jmix-security-data'                  : 'security-data',
         'io.jmix.security:jmix-security-ui'                    : 'security-ui',

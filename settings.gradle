@@ -102,6 +102,12 @@ includeProject('reports-starter', 'jmix-reports/reports-starter')
 includeProject('reports-ui-starter', 'jmix-reports/reports-ui-starter')
 includeProject('reports-rest-starter', 'jmix-reports/reports-rest-starter')
 
+includeProject('search', 'jmix-search/search')
+includeProject('search-starter', 'jmix-search/search-starter')
+includeProject('search-aws-starter', 'jmix-search/search-aws-starter')
+includeProject('search-ui', 'jmix-search/search-ui')
+includeProject('search-ui-starter', 'jmix-search/search-ui-starter')
+
 includeProject('security', 'jmix-security/security')
 includeProject('security-starter', 'jmix-security/security-starter')
 includeProject('security-data', 'jmix-security/security-data')
