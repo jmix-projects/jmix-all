@@ -21,6 +21,7 @@ git clone https://github.com/Haulmont/jmix-localfs.git
 git clone https://github.com/Haulmont/jmix-reports.git
 git clone https://github.com/Haulmont/jmix-rest.git
 git clone https://github.com/Haulmont/jmix-sampler.git
+git clone https://github.com/Haulmont/jmix-search.git
 git clone https://github.com/Haulmont/jmix-security.git
 git clone https://github.com/Haulmont/jmix-sessions.git
 git clone https://github.com/Haulmont/jmix-templates.git
