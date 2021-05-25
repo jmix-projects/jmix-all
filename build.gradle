@@ -134,11 +134,13 @@ def dependencySubstitutionMap = [
 ]
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
-    dependencySubstitutionMap.putAll(['io.jmix.bpm:jmix-bpm'           : 'bpm',
-                                      'io.jmix.bpm:jmix-bpm-modeler'   : 'bpm-modeler',
-                                      'io.jmix.bpm:jmix-bpm-starter'   : 'bpm-starter',
-                                      'io.jmix.bpm:jmix-bpm-ui'        : 'bpm-ui',
-                                      'io.jmix.bpm:jmix-bpm-ui-starter': 'bpm-ui-starter'])
+    dependencySubstitutionMap.putAll(['io.jmix.bpm:jmix-bpm'             : 'bpm',
+                                      'io.jmix.bpm:jmix-bpm-modeler'     : 'bpm-modeler',
+                                      'io.jmix.bpm:jmix-bpm-starter'     : 'bpm-starter',
+                                      'io.jmix.bpm:jmix-bpm-ui'          : 'bpm-ui',
+                                      'io.jmix.bpm:jmix-bpm-ui-starter'  : 'bpm-ui-starter',
+                                      'io.jmix.bpm:jmix-bpm-rest'        : 'bpm-rest',
+                                      'io.jmix.bpm:jmix-bpm-rest-starter': 'bpm-rest-starter'])
 
     dependencySubstitutionMap.putAll(['io.jmix.maps:jmix-maps'           : 'maps',
                                       'io.jmix.maps:jmix-maps-starter'   : 'maps-starter',

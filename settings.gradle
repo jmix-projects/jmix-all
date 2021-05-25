@@ -147,6 +147,8 @@ if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     includeProject('bpm-starter', 'jmix-bpm/bpm-starter')
     includeProject('bpm-ui', 'jmix-bpm/bpm-ui')
     includeProject('bpm-ui-starter', 'jmix-bpm/bpm-ui-starter')
+    includeProject('bpm-rest', 'jmix-bpm/bpm-rest')
+    includeProject('bpm-rest-starter', 'jmix-bpm/bpm-rest-starter')
 
     includeProject('maps', 'jmix-maps/maps')
     includeProject('maps-starter', 'jmix-maps/maps-starter')
