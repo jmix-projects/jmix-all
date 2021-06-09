@@ -87,7 +87,9 @@ def dependencySubstitutionMap = [
         'io.jmix.localfs:jmix-localfs-starter'                 : 'localfs-starter',
 
         'io.jmix.multitenancy:jmix-multitenancy'               : 'multitenancy',
+        'io.jmix.multitenancy:jmix-multitenancy-ui'            : 'multitenancy-ui',
         'io.jmix.multitenancy:jmix-multitenancy-starter'       : 'multitenancy-starter',
+        'io.jmix.multitenancy:jmix-multitenancy-ui-starter'    : 'multitenancy-ui-starter',
 
         'io.jmix.reports:jmix-reports'                         : 'reports',
         'io.jmix.reports:jmix-reports-starter'                 : 'reports-starter',
