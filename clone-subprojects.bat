@@ -12,6 +12,7 @@ git clone https://github.com/Haulmont/jmix-dynattr.git
 git clone https://github.com/Haulmont/jmix-email.git
 git clone https://github.com/Haulmont/jmix-emailtemplates.git
 git clone https://github.com/Haulmont/jmix-gradle-plugin.git
+git clone https://github.com/Haulmont/jmix-cloud-gradle-plugin.git
 git clone https://github.com/Haulmont/jmix-grapesjs.git
 git clone https://github.com/Haulmont/jmix-graphql.git
 git clone https://github.com/Haulmont/jmix-imap.git
