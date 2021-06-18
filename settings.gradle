@@ -145,8 +145,6 @@ includeProject('pivot-table', 'jmix-ui/pivot-table')
 includeProject('pivot-table-starter', 'jmix-ui/pivot-table-starter')
 includeProject('pivot-table-widgets', 'jmix-ui/pivot-table-widgets')
 
-includeProject('sampler', 'jmix-sampler', false)
-
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     // Maps, BPM, WebDAV
     includeProject('bpm', 'jmix-bpm/bpm')
