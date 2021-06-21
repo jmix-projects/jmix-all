@@ -83,6 +83,9 @@ def dependencySubstitutionMap = [
         'io.jmix.imap:jmix-imap-ui'                            : 'imap-ui',
         'io.jmix.imap:jmix-imap-ui-starter'                    : 'imap-ui-starter',
 
+        'io.jmix.ldap:jmix-ldap'                               : 'ldap',
+        'io.jmix.ldap:jmix-ldap-starter'                       : 'ldap-starter',
+
         'io.jmix.localfs:jmix-localfs'                         : 'localfs',
         'io.jmix.localfs:jmix-localfs-starter'                 : 'localfs-starter',
 

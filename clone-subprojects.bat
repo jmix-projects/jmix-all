@@ -15,6 +15,7 @@ git clone https://github.com/Haulmont/jmix-gradle-plugin.git
 git clone https://github.com/Haulmont/jmix-grapesjs.git
 git clone https://github.com/Haulmont/jmix-graphql.git
 git clone https://github.com/Haulmont/jmix-imap.git
+git clone https://github.com/Haulmont/jmix-ldap.git
 git clone https://github.com/Haulmont/jmix-localfs.git
 git clone https://github.com/Haulmont/jmix-multitenancy.git
 git clone https://github.com/Haulmont/jmix-reports.git
