@@ -41,6 +41,9 @@ def dependencySubstitutionMap = [
         'io.jmix.core:jmix-core'                               : 'core',
         'io.jmix.core:jmix-core-starter'                       : 'core-starter',
 
+        'io.jmix.cuba:jmix-cuba'                               : 'cuba',
+        'io.jmix.cuba:jmix-cuba-starter'                       : 'cuba-starter',
+
         'io.jmix.dashboards:jmix-dashboards'                   : 'dashboards',
         'io.jmix.dashboards:jmix-dashboards-starter'           : 'dashboards-starter',
         'io.jmix.dashboards:jmix-dashboards-chart'             : 'dashboards-chart',
@@ -49,6 +52,7 @@ def dependencySubstitutionMap = [
         'io.jmix.dashboards:jmix-dashboards-ui-starter'        : 'dashboards-ui-starter',
 
         'io.jmix.data:jmix-data'                               : 'data',
+        'io.jmix.data:jmix-data-autoconfigure'                 : 'data-autoconfigure',
         'io.jmix.data:jmix-eclipselink'                        : 'eclipselink',
         'io.jmix.data:jmix-eclipselink-starter'                : 'eclipselink-starter',
 
