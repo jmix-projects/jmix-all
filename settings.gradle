@@ -134,6 +134,7 @@ includeProject('ui', 'jmix-ui/ui')
 includeProject('ui-starter', 'jmix-ui/ui-starter')
 includeProject('ui-data', 'jmix-ui/ui-data')
 includeProject('ui-data-starter', 'jmix-ui/ui-data-starter')
+includeProject('ui-data-container', 'jmix-ui/ui-data-container')
 includeProject('ui-export', 'jmix-ui/ui-export')
 includeProject('ui-export-starter', 'jmix-ui/ui-export-starter')
 includeProject('ui-test-assist', 'jmix-ui/ui-test-assist')
@@ -147,6 +148,9 @@ includeProject('charts-widgets', 'jmix-ui/charts-widgets')
 includeProject('pivot-table', 'jmix-ui/pivot-table')
 includeProject('pivot-table-starter', 'jmix-ui/pivot-table-starter')
 includeProject('pivot-table-widgets', 'jmix-ui/pivot-table-widgets')
+
+includeProject('ui-flow', 'jmix-ui-flow/ui-flow')
+includeProject('ui-flow-starter', 'jmix-ui-flow/ui-flow-starter')
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     // Maps, BPM, WebDAV

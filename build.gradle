@@ -128,6 +128,7 @@ def dependencySubstitutionMap = [
 
         'io.jmix.ui:jmix-ui'                                   : 'ui',
         'io.jmix.ui:jmix-ui-data'                              : 'ui-data',
+        'io.jmix.ui:jmix-ui-data-container'                    : 'ui-data',
         'io.jmix.ui:jmix-ui-export'                            : 'ui-export',
         'io.jmix.ui:jmix-ui-starter'                           : 'ui-starter',
         'io.jmix.ui:jmix-ui-data-starter'                      : 'ui-data-starter',
@@ -143,6 +144,9 @@ def dependencySubstitutionMap = [
         'io.jmix.ui:jmix-pivot-table'                          : 'pivot-table',
         'io.jmix.ui:jmix-pivot-table-starter'                  : 'pivot-table-starter',
         'io.jmix.ui:jmix-pivot-table-widgets'                  : 'pivot-table-widgets',
+
+        'io.jmix.ui-flow:jmix-ui-flow'                         : 'ui-flow',
+        'io.jmix.ui-flow:jmix-ui-flow-starter'                 : 'ui-flow-starter',
 ]
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
