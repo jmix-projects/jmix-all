@@ -59,6 +59,9 @@ includeProject('dashboards-chart-starter', 'jmix-dashboards/dashboards-chart-sta
 includeProject('dashboards-ui', 'jmix-dashboards/dashboards-ui')
 includeProject('dashboards-ui-starter', 'jmix-dashboards/dashboards-ui-starter')
 
+includeProject('dataimport', 'jmix-dataimport/dataimport')
+includeProject('dataimport-starter', 'jmix-dataimport/dataimport-starter')
+
 includeProject('datatools', 'jmix-datatools/datatools')
 includeProject('datatools-starter', 'jmix-datatools/datatools-starter')
 includeProject('datatools-ui', 'jmix-datatools/datatools-ui')

@@ -56,6 +56,9 @@ def dependencySubstitutionMap = [
         'io.jmix.data:jmix-eclipselink'                        : 'eclipselink',
         'io.jmix.data:jmix-eclipselink-starter'                : 'eclipselink-starter',
 
+        'io.jmix.dataimport:jmix-dataimport'                     : 'dataimport',
+        'io.jmix.dataimport:jmix-dataimport-starter'             : 'dataimport-starter',
+
         'io.jmix.datatools:jmix-datatools'                     : 'datatools',
         'io.jmix.datatools:jmix-datatools-starter'             : 'datatools-starter',
         'io.jmix.datatools:jmix-datatools-ui'                  : 'datatools-ui',
