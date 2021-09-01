@@ -161,6 +161,13 @@ if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
                                       'io.jmix.maps:jmix-maps-starter'   : 'maps-starter',
                                       'io.jmix.maps:jmix-maps-ui'        : 'maps-ui',
                                       'io.jmix.maps:jmix-maps-ui-starter': 'maps-ui-starter'])
+
+    dependencySubstitutionMap.putAll(['io.jmix.webdav:jmix-webdav'             : 'webdav',
+                                      'io.jmix.webdav:jmix-webdav-starter'     : 'webdav-starter',
+                                      'io.jmix.webdav:jmix-webdav-rest'        : 'webdav-rest',
+                                      'io.jmix.webdav:jmix-webdav-rest-starter': 'webdav-rest-starter',
+                                      'io.jmix.webdav:jmix-webdav-ui'          : 'webdav-ui',
+                                      'io.jmix.webdav:jmix-webdav-ui-starter'  : 'webdav-ui-starter'])
 }
 
 configure(subprojects.findAll { it.name != 'bom' }) {

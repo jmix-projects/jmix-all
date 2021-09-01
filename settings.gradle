@@ -166,6 +166,13 @@ if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     includeProject('maps-ui', 'jmix-maps/maps-ui')
     includeProject('maps-ui-starter', 'jmix-maps/maps-ui-starter')
     includeProject('maps-ui-widgets', 'jmix-maps/maps-ui-widgets')
+
+    includeProject('webdav', 'jmix-webdav/webdav')
+    includeProject('webdav-starter', 'jmix-webdav/webdav-starter')
+    includeProject('webdav-rest', 'jmix-webdav/webdav-rest')
+    includeProject('webdav-rest-starter', 'jmix-webdav/webdav-rest-starter')
+    includeProject('webdav-ui', 'jmix-webdav/webdav-ui')
+    includeProject('webdav-ui-starter', 'jmix-webdav/webdav-ui-starter')
 }
 
 void includeProject(String name, String path, boolean changeBuildFileName = true) {
