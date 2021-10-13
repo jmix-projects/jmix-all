@@ -40,6 +40,12 @@ includeProject('awsfs-starter', 'jmix-awsfs/awsfs-starter')
 includeProject('awssecurity', 'jmix-awssecurity/awssecurity')
 includeProject('awssecurity-starter', 'jmix-awssecurity/awssecurity-starter')
 
+includeProject('cloudqueue-api', 'jmix-cloudqueue/cloudqueue-api')
+includeProject('cloudqueue-aws-starter', 'jmix-cloudqueue/cloudqueue-aws-starter')
+includeProject('cloudqueue-ui', 'jmix-cloudqueue/cloudqueue-ui')
+includeProject('cloudqueue-ui-starter', 'jmix-cloudqueue/cloudqueue-ui-starter')
+includeProject('cloudqueue-yandex-starter', 'jmix-cloudqueue/cloudqueue-yandex-starter')
+
 includeProject('core', 'jmix-core/core')
 includeProject('core-starter', 'jmix-core/core-starter')
 

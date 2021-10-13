@@ -38,6 +38,12 @@ def dependencySubstitutionMap = [
         'io.jmix.awssecurity:jmix-awssecurity'                 : 'awssecurity',
         'io.jmix.awssecurity:jmix-awssecurity-starter'         : 'awssecurity-starter',
 
+        'io.jmix.cloudqueue:jmix-cloudqueue-api'               : 'cloudqueue-api',
+        'io.jmix.cloudqueue:jmix-cloudqueue-aws-starter'       : 'cloudqueue-aws-starter',
+        'io.jmix.cloudqueue:jmix-cloudqueue-ui'                : 'cloudqueue-ui',
+        'io.jmix.cloudqueue:jmix-cloudqueue-ui-starter'        : 'cloudqueue-ui-starter',
+        'io.jmix.cloudqueue:jmix-cloudqueue-yandex-starter'    : 'cloudqueue-yandex-starter',
+
         'io.jmix.core:jmix-core'                               : 'core',
         'io.jmix.core:jmix-core-starter'                       : 'core-starter',
 
