@@ -85,6 +85,9 @@ def dependencySubstitutionMap = [
         'io.jmix.emailtemplates:jmix-emailtemplates-ui'        : 'emailtemplates-ui',
         'io.jmix.emailtemplates:jmix-emailtemplates-ui-starter': 'emailtemplates-ui-starter',
 
+        'io.jmix.flowui:jmix-flowui'                           : 'flowui',
+        'io.jmix.flowui:jmix-flowui-starter'                   : 'flowui-starter',
+
         'io.jmix.grapesjs:jmix-grapesjs'                       : 'grapesjs',
         'io.jmix.grapesjs:jmix-grapesjs-starter'               : 'grapesjs-starter',
 
