@@ -158,7 +158,7 @@ includeProject('pivot-table-starter', 'jmix-ui/pivot-table-starter')
 includeProject('pivot-table-widgets', 'jmix-ui/pivot-table-widgets')
 
 if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
-    // Maps, BPM, WebDAV
+    // Maps, BPM, WebDAV, Business Calendar, User Notifications
     includeProject('bpm', 'jmix-bpm/bpm')
     includeProject('bpm-modeler', 'jmix-bpm/bpm-modeler')
     includeProject('bpm-starter', 'jmix-bpm/bpm-starter')
@@ -167,11 +167,21 @@ if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
     includeProject('bpm-rest', 'jmix-bpm/bpm-rest')
     includeProject('bpm-rest-starter', 'jmix-bpm/bpm-rest-starter')
 
+    includeProject('businesscalendar', 'jmix-businesscalendar/businesscalendar')
+    includeProject('businesscalendar-starter', 'jmix-businesscalendar/businesscalendar-starter')
+    includeProject('businesscalendar-ui', 'jmix-businesscalendar/businesscalendar-ui')
+    includeProject('businesscalendar-ui-starter', 'jmix-businesscalendar/businesscalendar-ui-starter')
+
     includeProject('maps', 'jmix-maps/maps')
     includeProject('maps-starter', 'jmix-maps/maps-starter')
     includeProject('maps-ui', 'jmix-maps/maps-ui')
     includeProject('maps-ui-starter', 'jmix-maps/maps-ui-starter')
     includeProject('maps-ui-widgets', 'jmix-maps/maps-ui-widgets')
+
+    includeProject('notifications', 'jmix-notifications/notifications')
+    includeProject('notifications-starter', 'jmix-notifications/notifications-starter')
+    includeProject('notifications-ui', 'jmix-notifications/notifications-ui')
+    includeProject('notifications-ui-starter', 'jmix-notifications/notifications-ui-starter')
 
     includeProject('webdav', 'jmix-webdav/webdav')
     includeProject('webdav-starter', 'jmix-webdav/webdav-starter')

@@ -34,6 +34,8 @@ git clone https://github.com/Haulmont/jmix-ui.git
 
 if [[ -n "$JMIX_USE_PRIVATE_REPOSITORIES" ]]; then
     git clone https://github.com/Haulmont/jmix-bpm.git
+    git clone https://github.com/Haulmont/jmix-businesscalendar.git
     git clone https://github.com/Haulmont/jmix-maps.git
+    git clone https://github.com/Haulmont/jmix-notifications.git
     git clone https://github.com/Haulmont/jmix-webdav.git
 fi

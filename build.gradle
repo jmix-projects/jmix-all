@@ -62,8 +62,8 @@ def dependencySubstitutionMap = [
         'io.jmix.data:jmix-eclipselink'                        : 'eclipselink',
         'io.jmix.data:jmix-eclipselink-starter'                : 'eclipselink-starter',
 
-        'io.jmix.dataimport:jmix-dataimport'                     : 'dataimport',
-        'io.jmix.dataimport:jmix-dataimport-starter'             : 'dataimport-starter',
+        'io.jmix.dataimport:jmix-dataimport'                   : 'dataimport',
+        'io.jmix.dataimport:jmix-dataimport-starter'           : 'dataimport-starter',
 
         'io.jmix.datatools:jmix-datatools'                     : 'datatools',
         'io.jmix.datatools:jmix-datatools-starter'             : 'datatools-starter',
@@ -163,10 +163,21 @@ if (System.getenv("JMIX_USE_PRIVATE_REPOSITORIES")) {
                                       'io.jmix.bpm:jmix-bpm-rest'        : 'bpm-rest',
                                       'io.jmix.bpm:jmix-bpm-rest-starter': 'bpm-rest-starter'])
 
+    dependencySubstitutionMap.putAll(['io.jmix.businesscalendar:jmix-businesscalendar'           : 'businesscalendar',
+                                      'io.jmix.businesscalendar:jmix-businesscalendar-starter'   : 'businesscalendar-starter',
+                                      'io.jmix.businesscalendar:jmix-businesscalendar-ui'        : 'businesscalendar-ui',
+                                      'io.jmix.businesscalendar:jmix-businesscalendar-ui-starter': 'businesscalendar-ui-starter'])
+
+
     dependencySubstitutionMap.putAll(['io.jmix.maps:jmix-maps'           : 'maps',
                                       'io.jmix.maps:jmix-maps-starter'   : 'maps-starter',
                                       'io.jmix.maps:jmix-maps-ui'        : 'maps-ui',
                                       'io.jmix.maps:jmix-maps-ui-starter': 'maps-ui-starter'])
+
+    dependencySubstitutionMap.putAll(['io.jmix.notifications:jmix-notifications'           : 'notifications',
+                                      'io.jmix.notifications:jmix-notifications-starter'   : 'notifications-starter',
+                                      'io.jmix.notifications:jmix-notifications-ui'        : 'notifications-ui',
+                                      'io.jmix.notifications:jmix-notifications-ui-starter': 'notifications-ui-starter'])
 
     dependencySubstitutionMap.putAll(['io.jmix.webdav:jmix-webdav'             : 'webdav',
                                       'io.jmix.webdav:jmix-webdav-starter'     : 'webdav-starter',
