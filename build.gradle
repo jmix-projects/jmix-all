@@ -27,6 +27,11 @@ buildscript {
 }
 
 def dependencySubstitutionMap = [
+        'io.jmix.appsettings:jmix-appsettings'                 : 'appsettings',
+        'io.jmix.appsettings:jmix-appsettings-starter'         : 'appsettings-starter',
+        'io.jmix.appsettings:jmix-appsettings-ui'              : 'appsettings-ui',
+        'io.jmix.appsettings:jmix-appsettings-ui-starter'      : 'appsettings-ui-starter',
+
         'io.jmix.audit:jmix-audit'                             : 'audit',
         'io.jmix.audit:jmix-audit-starter'                     : 'audit-starter',
         'io.jmix.audit:jmix-audit-ui'                          : 'audit-ui',
@@ -106,6 +111,8 @@ def dependencySubstitutionMap = [
         'io.jmix.multitenancy:jmix-multitenancy-ui'            : 'multitenancy-ui',
         'io.jmix.multitenancy:jmix-multitenancy-starter'       : 'multitenancy-starter',
         'io.jmix.multitenancy:jmix-multitenancy-ui-starter'    : 'multitenancy-ui-starter',
+
+        'io.jmix.quartz:jmix-quartz-starter'                   : 'quartz-starter',
 
         'io.jmix.reports:jmix-reports'                         : 'reports',
         'io.jmix.reports:jmix-reports-starter'                 : 'reports-starter',

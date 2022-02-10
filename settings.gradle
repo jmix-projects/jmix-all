@@ -29,6 +29,11 @@ includeBuild 'jmix-translations'
 include ':bom'
 project(':bom').projectDir = new File(settingsDir, 'jmix-bom')
 
+includeProject('appsettings', 'jmix-appsettings/appsettings')
+includeProject('appsettings-starter', 'jmix-appsettings/appsettings-starter')
+includeProject('appsettings-ui', 'jmix-appsettings/appsettings-ui')
+includeProject('appsettings-ui-starter', 'jmix-appsettings/appsettings-ui-starter')
+
 includeProject('audit', 'jmix-audit/audit')
 includeProject('audit-starter', 'jmix-audit/audit-starter')
 includeProject('audit-ui', 'jmix-audit/audit-ui')
@@ -109,6 +114,9 @@ includeProject('multitenancy', 'jmix-multitenancy/multitenancy')
 includeProject('multitenancy-ui', 'jmix-multitenancy/multitenancy-ui')
 includeProject('multitenancy-starter', 'jmix-multitenancy/multitenancy-starter')
 includeProject('multitenancy-ui-starter', 'jmix-multitenancy/multitenancy-ui-starter')
+
+includeProject('quartz', 'jmix-quartz/quartz')
+includeProject('quartz-starter', 'jmix-quartz/quartz-starter')
 
 includeProject('rest', 'jmix-rest/rest')
 includeProject('rest-starter', 'jmix-rest/rest-starter')

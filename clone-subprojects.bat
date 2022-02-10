@@ -1,3 +1,4 @@
+git clone https://github.com/Haulmont/jmix-appsettings.git
 git clone https://github.com/Haulmont/jmix-audit.git
 git clone https://github.com/Haulmont/jmix-awsfs.git
 git clone https://github.com/Haulmont/jmix-awssecurity.git
@@ -21,6 +22,7 @@ git clone https://github.com/Haulmont/jmix-imap.git
 git clone https://github.com/Haulmont/jmix-ldap.git
 git clone https://github.com/Haulmont/jmix-localfs.git
 git clone https://github.com/Haulmont/jmix-multitenancy.git
+git clone https://github.com/Haulmont/jmix-quartz.git
 git clone https://github.com/Haulmont/jmix-reports.git
 git clone https://github.com/Haulmont/jmix-rest.git
 git clone https://github.com/Haulmont/jmix-search.git
