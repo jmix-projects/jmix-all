@@ -115,6 +115,9 @@ includeProject('multitenancy-ui', 'jmix-multitenancy/multitenancy-ui')
 includeProject('multitenancy-starter', 'jmix-multitenancy/multitenancy-starter')
 includeProject('multitenancy-ui-starter', 'jmix-multitenancy/multitenancy-ui-starter')
 
+includeProject('oidc', 'jmix-oidc/oidc')
+includeProject('oidc-starter', 'jmix-oidc/oidc-starter')
+
 includeProject('quartz', 'jmix-quartz/quartz')
 includeProject('quartz-starter', 'jmix-quartz/quartz-starter')
 

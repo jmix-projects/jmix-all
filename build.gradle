@@ -112,6 +112,9 @@ def dependencySubstitutionMap = [
         'io.jmix.multitenancy:jmix-multitenancy-starter'       : 'multitenancy-starter',
         'io.jmix.multitenancy:jmix-multitenancy-ui-starter'    : 'multitenancy-ui-starter',
 
+        'io.jmix.oidc:jmix-oidc'                               : 'oidc',
+        'io.jmix.oidc:jmix-oidc-starter'                       : 'oidc-starter',
+
         'io.jmix.quartz:jmix-quartz-starter'                   : 'quartz-starter',
 
         'io.jmix.reports:jmix-reports'                         : 'reports',
